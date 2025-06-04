@@ -1,98 +1,46 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Buddy & Tote</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --amber: #FFC107;
-      --amber-light: #ffe082;
-      --background: #f9f6f2;
-      --text: #333;
-    }
-    body {
-      font-family: 'Quicksand', sans-serif;
-      background-color: var(--background);
-      color: var(--text);
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: var(--amber-light);
-      padding: 2rem;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: var(--amber);
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h2 {
-      color: var(--amber);
-    }
-    .product {
-      background: #fff;
-      border-left: 6px solid var(--amber);
-      border-radius: 1rem;
-      padding: 1.5rem;
-      margin: 1rem 0;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      color: #888;
-    }
-    a {
-      color: var(--amber);
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wooden Heart Club</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Meet the Buddys</h1>
-    <p>Handmade little friends + lino printed totes</p>
-  </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Buddy's</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-  <section>
-    <h2>Adopt a Buddy</h2>
-    <div class="product">
-      <p>Each Buddy is a hand-crafted wooden figure with its own name and personality. No two are the same. €25 each.</p>
-    </div>
+    <header>
+        <img src="logo.png" alt="Wooden Heart Club Logo" />
+    </header>
 
-    <h2>Buddy Totes</h2>
-    <div class="product">
-      <p>Natural cotton tote bags with hand-pressed linoleum prints, featuring the original Buddy character. €12 each.</p>
-    </div>
+    <main>
+        <section class="cards">
+            <div class="card">
+                <img src="buddy.jpg" alt="Buddy" />
+                <p>Buddy's</p>
+            </div>
+            <div class="card">
+                <img src="linos.jpg" alt="Linos" />
+                <p>Linos</p>
+            </div>
+            <div class="card">
+                <img src="about.jpg" alt="About" />
+                <p>About</p>
+            </div>
+        </section>
+    </main>
 
-    <h2>Market Info</h2>
-    <div class="product">
-      <p>Come find us at the next market at the Mess in <strong>Harderwijk</strong> on <strong>June 22nd, 2025</strong>! You can adopt a Buddy or grab a tote—or both!</p>
-      <p><strong>Special bundle:</strong> Buddy + Tote = €35</p>
-    </div>
-
-    <h2>Follow The Journey</h2>
-    <div class="product">
-      <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@woodenheart.club</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <p>Made with love & care in the Netherlands – A wooden heart in every single one.</p>
-  </footer>
+    <footer>
+        <p>Mail: Info <span>@</span> woodenheart.club</p>
+    </footer>
 </body>
 </html>
