@@ -1,78 +1,46 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wooden Heart Club</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: url('background.png') repeat;
-      background-size: 400px;
-      text-align: center;
-    }
-    nav {
-      background: transparent;
-      padding: 1em 0;
-      font-size: 1.5em;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-    }
-    .logo {
-      margin: 1em auto;
-      max-width: 90%;
-    }
-    .cards {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2em;
-      padding: 2em;
-    }
-    .card img {
-      width: 200px;
-      height: auto;
-      border-radius: 10px;
-    }
-    footer {
-      margin-top: 2em;
-      padding: 1em;
-      background: #eee;
-      font-family: monospace;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wooden Heart Club</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Buddy's</a>
-    <a href="#">Gallery</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Buddy's</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-  <img src="logo.png" alt="Wooden Heart Club" class="logo" />
+    <header>
+        <img src="logo.png" alt="Wooden Heart Club Logo" />
+    </header>
 
-  <div class="cards">
-    <div class="card">
-      <img src="card-buddy.png" alt="Buddy" />
-    </div>
-    <div class="card">
-      <img src="card-lino.png" alt="Lino" />
-    </div>
-    <div class="card">
-      <img src="card-about.png" alt="About" />
-    </div>
-  </div>
+    <main>
+        <section class="cards">
+            <div class="card">
+                <img src="buddy.jpg" alt="Buddy" />
+                <p>Buddy's</p>
+            </div>
+            <div class="card">
+                <img src="linos.jpg" alt="Linos" />
+                <p>Linos</p>
+            </div>
+            <div class="card">
+                <img src="about.jpg" alt="About" />
+                <p>About</p>
+            </div>
+        </section>
+    </main>
 
-  <footer>
-    Mail: Info@woodenheart.club
-  </footer>
+    <footer>
+        <p>Mail: Info <span>@</span> woodenheart.club</p>
+    </footer>
 </body>
 </html>
