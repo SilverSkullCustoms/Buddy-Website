@@ -43,10 +43,8 @@ header img {
 }
 
 .card {
-    background: white;
-    border-radius: 10px;
+    background: transparent;
     padding: 1em;
-    color: black;
     max-width: 200px;
 }
 
