@@ -1,7 +1,6 @@
-
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     background: url('Background.png') repeat;
     background-size: 400px;
     color: #fff;
@@ -55,6 +54,9 @@ header img {
 
 footer {
     margin-top: 2em;
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em 1em;
+    background: url('pagebottom-fabric.png') no-repeat center center;
+    background-size: cover;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
 }
