@@ -24,7 +24,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.4em;
+    font-size: 25px;
 }
 
 header img {
@@ -53,41 +53,46 @@ header img {
 }
 
 footer {
-    margin-top: 2em;
-    padding: 2em 1em;
-    background: url('pagebottom-fabric.png') no-repeat center center;
-    background-size: cover;
     color: black;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 2.5em;
+    font-size: 25px;
+}
+.footer-image {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00000;
+    padding: 10px 20px;
+    font-size: 35px;
+    text-align: center;
 }
 
 /* --- Side images for collaborators (desktop only) --- */
 
 .side-images {
-    position: fixed;
     top: 20%;
-    display: flex;
     flex-direction: column;
     gap: 1em;
-    z-index: 10;
+    z-index: 20;
 }
 
 .side-images img {
-    width: 70px;
+    width: 7vw;
     height: auto;
     object-fit: contain;
     display: block;
-}
-
-/* Left side */
-.side-images.left {
-    left: 10px;
-}
-
-/* Right side */
-.side-images.right {
-    right: 10px;
 }
 
 /* Hide on mobile */
