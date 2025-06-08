@@ -61,3 +61,38 @@ footer {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2.5em;
 }
+
+/* --- Side images for collaborators (desktop only) --- */
+
+.side-images {
+    position: fixed;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    z-index: 10;
+}
+
+.side-images img {
+    width: 70px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* Left side */
+.side-images.left {
+    left: 10px;
+}
+
+/* Right side */
+.side-images.right {
+    right: 10px;
+}
+
+/* Hide on mobile */
+@media screen and (max-width: 768px) {
+    .side-images {
+        display: none;
+    }
+}
