@@ -52,6 +52,13 @@ header img {
     border-radius: 8px;
 }
 
+.card button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
 footer {
     color: black;
     font-family: 'Barlow Condensed', sans-serif;
