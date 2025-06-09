@@ -78,6 +78,44 @@ header img {
     border-radius: 8px;
 }
 
+.lino-photos {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.lino-photo {
+    background: transparent;
+    padding: 1em;
+    max-width: 200px;
+}
+
+.lino-photo img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about-photos {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.about-photo {
+    background: transparent;
+    padding: 1em;
+    max-width: 200px;
+}
+
+.about-photo img{
+    width: 100%;
+    border-radius: 8px;
+}
+
 footer {
     color: black;
     font-family: 'Barlow Condensed', sans-serif;
