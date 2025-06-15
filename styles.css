@@ -116,6 +116,15 @@ header img {
     border-radius: 8px;
 }
 
+.about-text {
+    max-width: 800px;
+    margin-top: 2em;
+    text-align: left;
+    padding: 0 1em;
+    color: white; /* of zwart, afhankelijk van je achtergrond */
+    font-size: 1.5em;
+}
+
 footer {
     color: black;
     font-family: 'Barlow Condensed', sans-serif;
